@@ -5,6 +5,8 @@
 node_modules/
 /.pnp
 .pnp.js
+/@material-ui
+@material-ui/
 
 # testing
 /coverage
