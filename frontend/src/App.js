@@ -19,7 +19,7 @@ import UserEditScreen from "./Screens/UserEditScreen";
 import ProductListScreen from "./Screens/ProductListScreen";
 import ProductEditScreen from "./Screens/ProductEditScreen";
 import OrderListScreen from "./Screens/OrderListScreen";
-import Dashboard from "./Dashboard";
+
 const App = () => {
   return (
     <Router>
@@ -57,7 +57,6 @@ const App = () => {
             component={HomeScreen}
           />
           <Route path='/Contact-Us' component={ContactUs} />
-          <Route path='/Dashboard' component={Dashboard} />
         </Container>
       </main>
       <Footer />
